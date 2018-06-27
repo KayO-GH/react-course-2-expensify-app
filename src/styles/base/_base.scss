@@ -1,0 +1,20 @@
+html{
+    font-size:62.5%;//1rem is approx 16px, 62.5% comes to about 10px, therefore, from now, 1rem is about 10px
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+.is-active{
+    font-weight: bold;
+}
